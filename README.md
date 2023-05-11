@@ -1,15 +1,16 @@
 # doc2txt
 
-![py-ver-badge] ![MIT] [![black-badge]][black-url]
+![MIT] [![black-badge]][black-url]
 
 > convert epub, pdf and docx to text file
 
-- epub to text {{ badge epub2txt.ipynb }}
+- epub to text [![colab-logo]][colab-epub]
 - pdf to text {{ badge pdf2txt.ipynb }}
 - docx to text {{ badge docx2txt.ipynb }}
 
+[colab-logo]: https://colab.research.google.com/assets/colab-badge.svg
+[colab-epub]: https://colab.research.google.com/github/hoishing/doc2txt/blob/main/epub2txt.ipynb
 [MIT]: https://img.shields.io/github/license/hoishing/doc2txt
-[py-ver-badge]: https://img.shields.io/pypi/pyversions/pipable
 [black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg
 [black-url]: https://github.com/psf/black
 
