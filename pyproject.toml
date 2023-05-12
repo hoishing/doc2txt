@@ -8,9 +8,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-beautifulsoup4 = "^4.12.2"
+pypdf = "^3.8.1"
 ebooklib = "^0.18"
 ipykernel = "^6.23.0"
+beautifulsoup4 = "^4.12.2"
+python-docx = "^0.8.11"
+docx2txt = "^0.8"
 
 
 [build-system]

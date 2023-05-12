@@ -1,15 +1,11 @@
 # doc2txt
 
-![MIT] [![black-badge]][black-url]
+[![colab-logo]][colab] ![MIT] [![black-badge]][black-url]
 
-> convert epub, pdf and docx to text file
-
-- epub to text [![colab-logo]][colab-epub]
-- pdf to text {{ badge pdf2txt.ipynb }}
-- docx to text {{ badge docx2txt.ipynb }}
+> extract text from epub, pdf and docx
 
 [colab-logo]: https://colab.research.google.com/assets/colab-badge.svg
-[colab-epub]: https://colab.research.google.com/github/hoishing/doc2txt/blob/main/epub2txt.ipynb
+[colab]: https://colab.research.google.com/github/hoishing/doc2txt/blob/main/doc2txt.ipynb
 [MIT]: https://img.shields.io/github/license/hoishing/doc2txt
 [black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg
 [black-url]: https://github.com/psf/black
@@ -22,8 +18,15 @@
 
 ## Tooling
 
-- `ebooklib` for epub manipulation
-- `BeautifulSoup4` for extract text from HTML
+- [ebooklib] for epub
+- [pypdf] for pdf
+- [python-docx] for docx
+- [BeautifulSoup4] for extracting text from HTML
+
+[ebooklib]: https://github.com/aerkalov/ebooklib
+[BeautifulSoup4]: https://www.crummy.com/software/BeautifulSoup/bs4/doc
+[pypdf]: https://github.com/py-pdf/pypdf
+[python-docx]: https://github.com/python-openxml/python-docx
 
 ## Questions?
 
