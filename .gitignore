@@ -1,2 +1,7 @@
 .venv
 poetry.lock
+try.*
+input/
+input
+output/
+__pycache__/

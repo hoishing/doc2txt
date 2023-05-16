@@ -5,12 +5,11 @@ description = ""
 authors = ["Kelvin Ng <hoishing@gmail.com>"]
 readme = "README.md"
 
-
 [tool.poetry.dependencies]
 python = "^3.11"
 pypdf = "^3.8.1"
 ebooklib = "^0.18"
-ipykernel = "^6.23.0"
+ipykernel = "^6.23.1"
 beautifulsoup4 = "^4.12.2"
 docx2txt = "^0.8"
 
