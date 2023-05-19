@@ -15,6 +15,8 @@
 ## Quick Start
 
 - `pip install doc2txt`
+- try with [colab]
+- also see `usage.ipynb`
 
 ## Tooling
 
